@@ -1,0 +1,23 @@
+{
+  "name": "aoc2021",
+  "version": "1.0.0",
+  "description": "Advent Of Code 2021",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MykhailoMatiiasevych/aoc2021.git"
+  },
+  "author": "Mykhailo Matiiasevych <mykhailo.matiiasevych@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MykhailoMatiiasevych/aoc2021/issues"
+  },
+  "homepage": "https://github.com/MykhailoMatiiasevych/aoc2021#readme",
+  "dependencies": {
+    "prettier": "^2.2.1",
+    "ramda": "^0.27.1"
+  }
+}
