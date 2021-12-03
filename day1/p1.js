@@ -1,3 +1,5 @@
+const label = 'Day1-1'
+console.time(label)
 const readToLines = require('../common/readToLines')
 
 const input = readToLines('./input.txt')
@@ -9,3 +11,4 @@ const { count } = input
   )
 
 console.log(count)
+console.timeEnd(label)
