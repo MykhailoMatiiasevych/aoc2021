@@ -1,4 +1,4 @@
-const label = 'Day2-1'
+const label = 'Day1-2'
 console.time(label)
 const R = require('ramda')
 const readToLines = require('../common/readToLines')
