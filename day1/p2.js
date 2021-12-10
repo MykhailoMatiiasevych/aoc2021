@@ -1,7 +1,8 @@
-const label = 'Day1-2'
-console.time(label)
 const R = require('ramda')
 const readToLines = require('../common/readToLines')
+
+const label = 'Day1-2'
+console.time(label)
 
 const input = readToLines('./input.txt')
 const sum = (arr, i) => R.sum(arr.slice(i, i + 3))

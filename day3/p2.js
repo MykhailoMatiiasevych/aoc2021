@@ -1,6 +1,7 @@
+const readToLines = require('../common/readToLines')
+
 const label = 'Day3-2'
 console.time(label)
-const readToLines = require('../common/readToLines')
 
 const input = readToLines('./input.txt').filter(Boolean)
 

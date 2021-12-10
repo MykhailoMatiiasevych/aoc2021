@@ -1,7 +1,8 @@
-const label = 'Day4-2'
-console.time(label)
 const R = require('ramda')
 const readToLines = require('../common/readToLines')
+
+const label = 'Day4-2'
+console.time(label)
 
 const input = readToLines('./input.txt').filter(Boolean)
 
